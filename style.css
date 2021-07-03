@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: #444;
+}
+.highlighter{
+
+    color: orange;
+}
+.Box{
+    width:40%;
+    float: left;
+    margin: 5%;
+}
+.box > img{
+    width: 80%;
+    float: right;
+    margin-top: 30px;
+  
+}
+.conteiner{
+    display: flex;
+}
+.bgTop{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    width: 1300px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+button{
+    background-color: orange;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+h3{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
